@@ -1,9 +1,9 @@
 <?php
 
-    define('HOST','sql11.freesqldatabase.com');
-    define('DB_NAME','sql11685764');
+    define('HOST','192.168.1.25');
+    define('DB_NAME','Jean-Baptiste');
     define('USER','root');
-    define('PASS','');
+    define('PASS','Alexi$57280');
 
     try{
         $db = new PDO("mysql:host=" . HOST . ";dbname=" . DB_NAME, USER, PASS);
