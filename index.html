@@ -9,8 +9,6 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<?php
-?>
 <div id="stars"></div>
 <div id="stars2"></div>
 <div id="stars3"></div>
@@ -45,23 +43,26 @@
                 <div class="center-wrap">
                   <div class="section text-center">
                     <h4 class="mb-3 pb-3">Sign Up</h4>
-                    <div class="form-group">
-                      <input type="text" class="form-style" placeholder="Pseudo">
-                      <i class="input-icon uil uil-user"></i>
-                    </div>	
-                    <div class="form-group mt-2">
-                      <input type="tel" class="form-style" placeholder="Numéro de téléphone">
-                      <i class="input-icon uil uil-phone"></i>
-                    </div>	
-                    <div class="form-group mt-2">
-                      <input type="email" class="form-style" placeholder="Email">
-                      <i class="input-icon uil uil-at"></i>
-                    </div>
-                    <div class="form-group mt-2">
-                      <input type="password" class="form-style" placeholder="Mot de passe">
-                      <i class="input-icon uil uil-lock-alt"></i>
-                    </div>
-                    <a href="https://www.web-leb.com/code" class="btn mt-4">Register</a>
+                    <form method="POST" action="traitement.php">
+                      <div class="form-group">
+                        <input type="text" class="form-style" placeholder="Pseudo">
+                        <i class="input-icon uil uil-user"></i>
+                      </div>	
+                      <div class="form-group mt-2">
+                        <input type="tel" class="form-style" placeholder="Numéro de téléphone">
+                        <i class="input-icon uil uil-phone"></i>
+                      </div>	
+                      <div class="form-group mt-2">
+                        <input type="email" class="form-style" placeholder="Email">
+                        <i class="input-icon uil uil-at"></i>
+                      </div>
+                      <div class="form-group mt-2">
+                        <input type="password" class="form-style" placeholder="Mot de passe">
+                        <i class="input-icon uil uil-lock-alt"></i>
+                      </div>
+                      <div>
+                        <input type="submit" value="M'inscrire" name="ok">
+                      </div>
                       </div>
                     </div>
                   </div>
